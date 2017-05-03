@@ -3,7 +3,7 @@
   <head>
  <style>
 h1 {
-    color: grey;s
+    color: grey;
     font-family: courier;
 } 
 
@@ -12,17 +12,15 @@ p {
 } 
 </style>
 
-
-</style>
-
-
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>My First SKY UX App</title>
     <link rel="stylesheet" href="https://sky.blackbaudcdn.net/skyux/1.14.0/css/sky-bundle.css" integrity="sha384-8C+OaJ0YgnpuSr7eLBza15dEGn9cEPQ0KYCTRYCuFAz9/t+4raBVR+sq4MU0q2Zg" crossorigin="anonymous">
   </head>
+
   <body>
     <style>
     @import 'node_modules/dragula/dragula';
+    "background-color:gray";
     </style>
     <script src="https://sky.blackbaudcdn.net/skyux/1.14.0/js/sky-bundle.min.js" integrity="sha384-+hsf7O+3eIUWm7mkBHlHFMqtgU2jpjndqkn1DwOMmmhg0Wl1rbdVJ0gA5G53xNqI" crossorigin="anonymous"></script>
   
@@ -34,6 +32,8 @@ p {
   </div>
   <div id="right">
   </div>
-  <button style="align:center"> A BOOTON! </button>
+ <form action="/home" class="inlines">
+    <button class="float-left submit-button" >Home</button>
+</form>
   </body>
 </html>
